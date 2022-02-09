@@ -40,7 +40,7 @@ npm run start
 - Modal 버튼을 클릭했을 때 오버레이를 넣는데 어려움이 있었습니다. `position`을 `absolute`로 해서 해결했습니다.
 - Modal UI의 background를 처음에는 `color`를 black으로 하고 `opacity`를 0.5로 하여 반투명이 되도록 했습니다. 하지만 Modal UI까지 반투명이 되어버렸습니다. 결국 `rgba(0, 0, 0, 0.5)`로 바꿔서 해결했습니다.
 
-## Tab
+## 2. Tab
 
 ![tab](https://user-images.githubusercontent.com/88545516/153205612-68a3dca5-a28c-4b83-97d5-b173d257f32e.gif)
 
