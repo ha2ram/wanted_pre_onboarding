@@ -10,6 +10,7 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 `;
 
 const Button = styled.button`
@@ -22,11 +23,7 @@ const Button = styled.button`
 `;
 
 const Background = styled.div`
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  position: absolute;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
@@ -36,8 +33,8 @@ const Background = styled.div`
 `;
 
 const ModalBox = styled.div`
-  width: 400px;
-  height: 200px;
+  width: 300px;
+  height: 120px;
   background-color: white;
   border-radius: 12px;
   color: black;
@@ -57,7 +54,7 @@ const CloseBtn = styled.button`
 `;
 
 const Content = styled.p`
-  font-size: 20px;
+  font-size: 17px;
 `;
 
 function Modal() {
