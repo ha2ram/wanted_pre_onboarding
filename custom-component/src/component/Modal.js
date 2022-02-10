@@ -58,20 +58,20 @@ const Content = styled.p`
 `;
 
 function Modal() {
-  let [Modal, setModal] = useState('false');
+  let [modal, setModal] = useState(false);
 
   const showModal = () => {
-    setModal(!Modal);
+    setModal(!modal);
   };
 
   const closeModal = () => {
-    setModal(!Modal);
+    setModal(!modal);
   };
 
   return (
     <Container>
       <Button onClick={showModal}>Open Modal</Button>
-      {Modal === true ? (
+      {modal === true ? (
         <Background>
           <ModalBox>
             <CloseBtn onClick={closeModal}>X</CloseBtn>
